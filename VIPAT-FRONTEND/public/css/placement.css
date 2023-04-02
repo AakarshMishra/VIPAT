@@ -1,0 +1,145 @@
+.body {
+    background: linear-gradient(rgba(0, 233, 233, 0.5) 100%, rgba(0, 233, 233, 0.5) 100%), url('../images/bg.jpeg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.home {
+    background:
+        /*linear-gradient(rgba(0,233,233,0.2) 100%,rgba(0,233,233,0.1) 100%)*/
+        url('../images/background.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+.login {
+    background:
+        /*linear-gradient(rgba(0,233,233,0.2) 100%,rgba(0,233,233,0.1) 100%),  */
+        url('../images/background.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.nbank {
+    background: linear-gradient(rgba(0, 233, 233, 0.2) 100%, rgba(0, 233, 233, 0.1) 100%),
+        url('../images/nbank.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.dash {
+    min-height: 100vh;
+    background: linear-gradient(#d4fdf5c7 100%, #a7f1a740 100%),
+        url('../images/dd.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+table.table-bordered {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+table.table-bordered>thead>tr>th {
+    border: 1px solid black;
+}
+
+table.table-bordered>tbody>tr>td {
+    border: 1px solid black;
+}
+
+.home div h4 {
+    font-size: 2.5em;
+    margin-top: 20px;
+
+}
+
+.home div {
+    text-align: center;
+}
+
+.home div div div img {
+    border-radius: 100px;
+}
+
+.login div h4 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.home footer {
+    font-size: 1.5em;
+    margin-top: 80px;
+
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+.login footer {
+    font-size: 1.5em;
+    margin-top: 11em;
+    padding: 0;
+    color: white;
+}
+
+.TEXT {
+    color: red;
+}
+
+.forgot{
+    background:
+        /*linear-gradient(rgba(0,233,233,0.2) 100%,rgba(0,233,233,0.1) 100%),  */
+        url('../images/login1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.forgot footer {
+    font-size: 1.5em;
+    margin-top: 13em;
+    padding: 0;
+    color: white;
+}
+.forgot div h4 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: skyblue;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+  .brand-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  .mt
+  {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .gg
+  {
+    text-align: center;
+    margin-left: 25rem;
+  }
+  
