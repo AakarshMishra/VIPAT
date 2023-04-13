@@ -57,7 +57,7 @@ function ForgotPass(){
                                     </div>
                                 </div>
                                 <button  className="btn btn-primary mr-2 float-right">Forgot Password</button>
-                                <div className="TEXT" onClick={e=>navigate('/login')}><b><u>Go to HomePage?</u></b></div>
+                                <div className="TEXT" onClick={e=>navigate('/')}><b><u>Go to HomePage?</u></b></div>
                             </div>
                             {errmsg !=null ? (
                                 <div className="alert text-danger text-center font-weight-bold">

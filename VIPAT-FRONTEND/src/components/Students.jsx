@@ -75,7 +75,7 @@ function Students(){
                         <td>{x.branch}</td>
                         <td>
                             <button onClick={e=>handleView(x.id)} className="btn btn-info btn-sm mr-2">View</button>
-                            <button onClick={e=>handleDelete(x.id)} className="btn btn-danger btn-sm">Delete</button>
+                            {/* <button onClick={e=>handleDelete(x.id)} className="btn btn-danger btn-sm">Delete</button> */}
                             <button onClick={e=>handleEdit(x.id)} className="btn btn-success ml-2 btn-sm">Edit</button>
                         </td>
                     </tr>

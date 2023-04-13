@@ -96,7 +96,8 @@ function JobDetails() {
                                         {role === "Student" ? (
                                             <tr>
                                                 <th colSpan="2">
-                                                    <button onClick={handleApply} className="btn btn-primary btn-sm float-right">Apply Now</button>
+                                                    <button onClick={handleApply} className="btn btn-success float-right">APPLY NOW</button>
+                                                    <a href="http://localhost:8501/" target="_blank" rel="noopener noreferrer"><div className="TEXT" ><u>Want to Analyze your Resume?</u></div></a>
                                                 </th>
                                             </tr>
                                         ) : ""}
@@ -140,6 +141,7 @@ function JobDetails() {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </>
     )

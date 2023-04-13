@@ -62,7 +62,7 @@ function LoginProctor(){
                             </div>                             
                             <div className="card-body">
                                 <div className="form-group form-row">
-                                    <label className="col-sm-4 col-form-label"><b>User Id</b></label>
+                                    <label className="col-sm-4 col-form-label"><b>Email Id</b></label>
                                     <div className="col-sm-8">
                                     <input type="text" name="userid" required className="form-control" placeholder="User Id"  value={user?.userid} onChange={handleInput}/>
                                     </div>

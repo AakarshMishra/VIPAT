@@ -33,7 +33,7 @@ function CompanyHome(){
                         <table className="table table-borderless">
                             <tbody>
                                 <tr>
-                                    <th>company Name</th>
+                                    <th>Company Name</th>
                                     <th>{companyInfo?.cname}</th>
                                 </tr>
                                 <tr>

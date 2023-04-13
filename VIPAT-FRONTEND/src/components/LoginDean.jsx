@@ -75,7 +75,7 @@ function LoginDean(){
                                     </div>
                                 </div>
                                 <button className="btn btn-primary float-right">Login</button>
-                                <div className="TEXT" onClick={e=>navigate('/Fpass')}><b><u>ForgotPassword?</u></b></div>
+                                <div className="TEXT" onClick={e=>navigate('/')}><b><u>Go to HomePage?</u></b></div>
                             </div>
                             {errmsg !=null ? (
                                 <div className="alert text-danger text-center font-weight-bold">
