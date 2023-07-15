@@ -1,12 +1,39 @@
+import React from 'react';
+import Navbar from './Navbar';
+import { Link } from 'react-scroll';
+import Howitwork from './Howitwork';
+import About from './About';
+import Agent from './Agent';
+import Properties from './Properties';
+import Contact from './Contact';
+import videobg from '../assets/backgroundvideo.mp4' 
+
 function Header() {
-    const uname = sessionStorage.getItem("uname")
+    
     return (
-        <div className="jumbotron p-0 mb-0 text-white border-bottom rounded-0" style={{ background: "#4085c9"}}>
-            <img src="images/vit2.png" className="" style={{ height: "4em" ,display: "inline"}}></img> 
-            <h5 className="float-right m-3">Welcome ! {uname}</h5>
-            <h4 className="gg" style={{display:"inline"}}>VIPAT - THE PLACEMENT CELL</h4>
+        <>
+        <div className='header' id='header'>
+            <Navbar />
+            <video autoPlay loop muted>
+                <source src={videobg} type='video/mp4'/>
+            </video>
+            <div className='intro'>
+                <p>Looking for the Best institution!</p>
+                <h1><span>Welcome </span>to<span> Vit</span> Chennai</h1>
+                <p className='details'>VIT Chennai, one of the leading engineering colleges in India, offers the best exposure in terms of world class education, internship opportunities, top-notch placement opportunities, and infrastructural amenities. We ensure that the graduates walk out with many skills and learning.</p>
+                <Link to='agent' className='header-btn'><b>LOGIN </b></Link>
+
+            </div>
         </div>
+        <Agent />
+        <About />
+        <Howitwork />
+        <Properties />
+        <Contact />
+        </>
+
+
     )
 }
 
-export default Header;
+export default Header
